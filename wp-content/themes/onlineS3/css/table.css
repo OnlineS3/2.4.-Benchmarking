@@ -1,0 +1,290 @@
+
+/* 
+    Table stylesheet
+*/
+
+table.tbl-dt {
+    max-height: 340px;
+    overflow: auto;
+    clear: both;
+    white-space: nowrap;
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    max-width: 790px;
+    display: inline-block;
+}
+
+#colored-table {
+    max-height: 400px;
+}
+
+table.tbl-dt:not(.tbl-colored) {
+    border-left: 1px solid #d1d1d1;
+}
+
+.tbl-colored {
+    padding: 2rem;
+}
+
+.tbl-dt tr {
+    max-width: 690px;
+    display: table-row;
+}
+
+.tbl-dt td, .tbl-dt th {
+    display: inline-block;
+    text-align: center;
+    padding: 5px !important;
+}
+
+.tbl-dt td.small,
+.tbl-dt th.small {
+    width: 3rem;
+}
+
+.tbl-dt td.medium,
+.tbl-dt th.medium {
+    width: 9rem;
+}
+
+.tbl-dt td.large,
+.tbl-dt th.large {
+    width: 14rem;
+}
+
+.tbl-dt td.left input,
+.tbl-dt th.left input {
+    text-align: left
+}
+
+.tbl-dt td.center input,
+.tbl-dt th.center input {
+    text-align: center;
+    padding: 0;
+    border: 0;
+    padding: 2px;
+}
+
+.tbl-dt td.right input,
+.tbl-dt th.right input {
+    text-align: right
+}
+
+.tbl-dt td input, .tbl-dt th input, 
+.tbl-dt td span, .tbl-dt th span {
+    padding: 7px 7px;
+    color: #4c4b4b;
+    background: none;
+    border: none;
+    font-family: tahoma;
+    letter-spacing: 1px;
+    font-size: 11px;
+    font-family: tahoma;
+    color: #232323;
+    font-family: verdana !important;
+}
+
+/* primary table style */
+.tbl-primary td,
+.tbl-primary th {
+    border: 1px solid #ddd;
+    width: 9rem;
+    margin-left: -3px;
+    color: #232323;
+    font-family: verdana !important;
+    /* letter-spacing: 1px; */
+}
+
+.tbl-primary tr:not(:last-child) td {
+    margin-bottom: -3px;
+    /* letter-spacing: 1px; */
+    /* letter-spacing: 1px; */
+}
+
+.tbl-primary th {
+    height: 3rem;
+    font-weight: 600;
+    padding-top: 12px !important;
+    background: -webkit-repeating-linear-gradient(45deg, #fff, #444646 3px, #fff 6px);
+    background: -moz-repeating-linear-gradient(45deg, #fff, #e7e9e9 3px, #fff 6px);
+    background: repeating-linear-gradient(45deg, #fff, #e7e9e9 3px, #fff 6px);
+    font-family: tahoma !important;
+    color: greay;
+    font-size: 12px;
+    background: repeating-linear-gradient(45deg, #fff, #ffffff 6px, #ececec 1px, #fff 8px),  repeating-linear-gradient(135deg, #fff, #ffffff 6px, #efefef 1px, #fff 8px);
+    /* background: repeating-linear-gradient(135deg, #fff, #ffffff 6px, #efefef 1px, #fff 8px); */
+}
+
+.tbl-primary td input,
+.tbl-primary th input {
+    font-style: normal;
+    font-size: 12px;
+    color: #454545;
+    text-align: right;
+}
+
+.two .tbl-primary th input {
+    color: #ba5945
+}
+
+.three .tbl-primary th input {
+    color: #5f7d7c
+}
+
+
+.tbl-primary th input {
+    font-weight: 600;
+}
+
+/* secondary table style */
+.tbl-secondary tr {
+    max-width: 690px;
+    display: table-row;
+}
+
+.tbl-secondary td,
+.tbl-secondary th {
+    margin-left: -1px;
+    font-size: 12px;
+    border: 1px dotted lightgrey;
+    padding: 4px 7px !important;
+    border-left: none;
+    border: none
+}
+
+.tbl-secondary td {
+    border-top: none;
+}
+
+.tbl-secondary th {
+    font-weight: 600;
+    height: 50px;
+    padding-top: 14px !important;
+    background: #f9f9f9;
+    border: 1px solid #d8d8d8;
+    background: linear-gradient(#ffffff,#e4e4e4);
+    background: #f9f9f9;
+    background: linear-gradient(#FBFBFB,#F3F3F3);
+    border-color: #DFDFDF;
+    font-size: 13px;
+    font-family: "open sans" !important;
+    letter-spacing: 1px;
+    color: #505050;
+}
+
+.tbl-secondary th input {
+    color: #686262;
+    color: #505050;
+    font-size: 13px;
+    font-family: "open sans" !important;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.tbl-secondary tr.odd td {
+    margin-bottom: 0 !important;
+    background: #F8F9F8;
+}
+
+/* colored table style */
+.tbl-colored td,
+.tbl-colored th {
+    width: 3.8rem !important;
+    padding: 3px !important;
+    margin-bottom: -5px;
+    margin-left: -5px;
+    border: 2px solid rgba(123, 121, 121, 0.26);
+}
+
+.tbl-colored th {
+    font-weight: 600;
+    height: 3.4rem;
+    padding-top: .85rem;
+    font-size: 12px;
+    background: -webkit-repeating-linear-gradient(45deg, #fff, #f3f3f3 3px, #fff 6px);
+    background: -moz-repeating-linear-gradient(45deg, #fff, #f3f3f3 3px, #fff 6px);
+    background: repeating-linear-gradient(45deg, #fff, #f3f3f3 3px, #fff 6px);
+    background: repeating-linear-gradient(45deg, #fff, #ffffff 6px, #ececec 1px, #fff 8px), repeating-linear-gradient(135deg, #fff, #ffffff 6px, #efefef 1px, #fff 8px);
+}
+
+.tbl-colored td {
+    height: 2.8rem;
+    font-size: 11px;
+}
+
+.tbl-colored td input {
+    font-weight: 600 !important;
+    font-size: 10px;
+}
+
+.tbl-colored td:not(.row_head) input {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.tbl-colored td input,
+.tbl-colored th input {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.tbl-colored th input,
+.tbl-colored .row_head input {
+    color: #454545;
+    font-size: 11px;
+}
+
+.tbl-colored .row_head input {
+    text-align: left;
+    padding: 4px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 1px
+}
+
+.tbl-colored .row_head {
+    width: 13rem !important;
+}
+
+.tbl-colored .color-1 {
+    background-color: #5b6477 !important;
+    background-color: #BFBAD4 !important;
+}
+
+.tbl-colored .color-2 {
+    background-color: #e83131 !important;
+    background-color: #8D89A5 !important;
+}
+
+.tbl-colored .color-3 {
+    background-color: #ffd02f !important;
+    background-color: #5E5881 !important;
+}
+
+.tbl-colored .color-4 {
+    background-color: #5eb779 !important;
+    background-color: #39325D !important;
+}
+
+.tbl-colored .color-5 {
+    background-color: #5eb779 !important;
+    background-color: #FE322B !important;
+}
+
+.tbl-secondary .sep {
+    border-bottom: 1px solid #e6dddd
+}
+
+.auto-tbl .tbl-secondary td {
+    border-top: none;
+    border-bottom: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+}

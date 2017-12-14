@@ -1,0 +1,771 @@
+/*Init*/
+
+.one .toggle-item {
+    display: none;
+}
+
+.one .toggle-item + div + label + .accordion-section {
+    height: 0;
+    overflow:hidden;
+}
+
+.one .toggle-item:checked + div + label + .accordion-section {
+    -webkit-animation: slide-up-one 1.5s ease forwards;
+    /* Safari 4+ */
+    -moz-animation: slide-up-one 1.5s ease forwards;
+    /* Fx 5+ */
+    -o-animation: slide-up-one 1.5s ease forwards;
+    /* Opera 12+ */
+    animation: slide-up-one 1.5s forwards;
+    /* IE 10+ */
+}
+
+.one .toggle-item + div + label + .accordion-section {
+    -webkit-animation: slide-down-one 1.5s ease forwards;
+     /*Safari 4+*/ 
+    -moz-animation: slide-down-one 1.5s ease forwards;
+     /*Fx 5+*/ 
+    -o-animation: slide-down-one 1.5s ease forwards;
+     /*Opera 12+*/ 
+    animation: slide-down-one 1.5s forwards;
+     /*IE 10+*/ 
+}
+
+.one .short.toggle-item:checked + div + label + .accordion-section {
+    -webkit-animation: slide-up-short-one 1.5s ease forwards;
+    /* Safari 4+ */
+    -moz-animation: slide-up-short-one 1.5s ease forwards;
+    /* Fx 5+ */
+    -o-animation: slide-up-short-one 1.5s ease forwards;
+    /* Opera 12+ */
+    animation: slide-up-short-one 1.5s forwards;
+    /* IE 10+ */
+}
+
+.one .short.toggle-item + div + label + .accordion-section {
+    -webkit-animation: slide-down-short-one 1.5s ease forwards;
+     /*Safari 4+*/ 
+    -moz-animation: slide-down-short-one 1.5s ease forwards;
+     /*Fx 5+*/ 
+    -o-animation: slide-down-short-one 1.5s ease forwards;
+     /*Opera 12+*/ 
+    animation: slide-down-short-one 1.5s forwards;
+     /*IE 10+*/ 
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-up-one {
+    from  {
+        height: 0;
+    }
+    to {
+        height: 618px;
+    }
+}
+@-moz-keyframes slide-up-one {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 618px;
+    }
+}
+@-o-keyframes slide-up-one {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 618px;
+    }
+}
+@keyframes slide-up-one {
+    from {
+        height: 0;
+    }
+    to {
+        height: 618px;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-down-one {
+    from {
+        height: 618px;
+    }
+    to {
+        height: 0;
+    }
+}
+@-moz-keyframes slide-down-one {
+    0% {
+        height: 618px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-o-keyframes slide-down-one {
+    0% {
+        height: 618px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@keyframes slide-down-one {
+    from {
+        height: 618px;
+    }
+    to {
+        height: 0px;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-up-short-one {
+    from  {
+        height: 0;
+    }
+    to {
+        height: 118px;
+    }
+}
+@-moz-keyframes slide-up-short-one {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 118px;
+    }
+}
+@-o-keyframes slide-up-short-one {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 118px;
+    }
+}
+@keyframes slide-up-short-one {
+    from {
+        height: 0;
+    }
+    to {
+        height: 118px;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-down-short-one {
+    from {
+        height: 118px;
+    }
+    to {
+        height: 0;
+    }
+}
+@-moz-keyframes slide-down-short-one {
+    0% {
+        height: 118px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-o-keyframes slide-down-short-one {
+    0% {
+        height: 118px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@keyframes slide-down-short-one {
+    from {
+        height: 118px;
+    }
+    to {
+        height: 0px;
+    }
+}
+
+.two .toggle-item {
+    display: none;
+}
+
+.two .toggle-item + div + label + .accordion-section {
+    height: 0;
+    overflow:hidden;
+}
+
+.two .toggle-item:checked + div + label + .accordion-section {
+    -webkit-animation: slide-up-two 1.5s ease forwards;
+    /* Safari 4+ */
+    -moz-animation: slide-up-two 1.5s ease forwards;
+    /* Fx 5+ */
+    -o-animation: slide-up-two 1.5s ease forwards;
+    /* Opera 12+ */
+    animation: slide-up-two 1.5s ease forwards;
+    /* IE 10+ */
+}
+
+.two .toggle-item:not(:checked) + div + label + .accordion-section {
+    -webkit-animation: slide-down-two 1.5s ease backwards;
+    /* Safari 4+ */
+    -moz-animation: slide-down-two 1.5s ease backwards;
+    /* Fx 5+ */
+    -o-animation: slide-down-two 1.5s ease backwards;
+    /* Opera 12+ */
+    animation: slide-down-two 1.5s ease backwards;
+    /* IE 10+ */
+}
+
+.two .short.toggle-item:checked + div + label + .accordion-section {
+    -webkit-animation: slide-up-short-two 1.5s ease forwards;
+    /* Safari 4+ */
+    -moz-animation: slide-up-short-two 1.5s ease forwards;
+    /* Fx 5+ */
+    -o-animation: slide-up-short-two 1.5s ease forwards;
+    /* Opera 12+ */
+    animation: slide-up-short-two 1.5s ease forwards;
+    /* IE 10+ */
+}
+
+.two .short.toggle-item:not(:checked) + div + label + .accordion-section {
+    -webkit-animation: slide-down-short-two 1.5s ease backwards;
+    /* Safari 4+ */
+    -moz-animation: slide-down-short-two 1.5s ease backwards;
+    /* Fx 5+ */
+    -o-animation: slide-down-short-two 1.5s ease backwards;
+    /* Opera 12+ */
+    animation: slide-down-short-two 1.5s ease backwards;
+    /* IE 10+ */
+}
+
+.toggle-item:checked + div + label + .accordion-section textarea {
+	display: block
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-up-two {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 404px;
+    }
+}
+@-moz-keyframes slide-up-two {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 404px;
+    }
+}
+@-o-keyframes slide-up-two {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 404px;
+    }
+}
+@keyframes slide-up-two {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 404px;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-down-two {
+    0% {
+        height: 404px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-moz-keyframes slide-down-two {
+    0% {
+        height: 404px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-o-keyframes slide-down-two {
+    0% {
+        height: 404px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@keyframes slide-down-two {
+    0% {
+        height: 404px;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-up-short-two {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+@-moz-keyframes slide-up-short-two {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+@-o-keyframes slide-up-short-two {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+@keyframes slide-up-short-two {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-down-short-two {
+    0% {
+        height: 30px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-moz-keyframes slide-down-short-two {
+    0% {
+        height: 30px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-o-keyframes slide-down-short-two {
+    0% {
+        height: 30px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@keyframes slide-down-short-two {
+    0% {
+        height: 30px;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+
+.three .toggle-item {
+    display: none;
+}
+
+.three .toggle-item + div + label + .accordion-section {
+    height: 0;
+    overflow:hidden;
+}
+
+.three .toggle-item:checked + div + label + .accordion-section {
+    -webkit-animation: slide-up-three 1.5s ease forwards;
+    /* Safari 4+ */
+    -moz-animation: slide-up-three 1.5s ease forwards;
+    /* Fx 5+ */
+    -o-animation: slide-up-three 1.5s ease forwards;
+    /* Opera 12+ */
+    animation: slide-up-three 1.5s ease forwards;
+    /* IE 10+ */
+}
+
+.three .toggle-item:not(:checked) + div + label + .accordion-section {
+    -webkit-animation: slide-down-three 1.5s ease backwards;
+    /* Safari 4+ */
+    -moz-animation: slide-down-three 1.5s ease backwards;
+    /* Fx 5+ */
+    -o-animation: slide-down-three 1.5s ease backwards;
+    /* Opera 12+ */
+    animation: slide-down-three 1.5s ease backwards;
+    /* IE 10+ */
+}
+
+.three .short.toggle-item:checked + div + label + .accordion-section {
+    -webkit-animation: slide-up-short-three 1.5s ease forwards;
+    /* Safari 4+ */
+    -moz-animation: slide-up-short-three 1.5s ease forwards;
+    /* Fx 5+ */
+    -o-animation: slide-up-short-three 1.5s ease forwards;
+    /* Opera 12+ */
+    animation: slide-up-short-three 1.5s ease forwards;
+    /* IE 10+ */
+}
+
+.three .short.toggle-item:not(:checked) + div + label + .accordion-section {
+    -webkit-animation: slide-down-short-three 1.5s ease backwards;
+    /* Safari 4+ */
+    -moz-animation: slide-down-short-three 1.5s ease backwards;
+    /* Fx 5+ */
+    -o-animation: slide-down-short-three 1.5s ease backwards;
+    /* Opera 12+ */
+    animation: slide-down-short-three 1.5s ease backwards;
+    /* IE 10+ */
+}
+
+.toggle-item:checked + div + label + .accordion-section textarea {
+	display: block
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-up-three {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 1100px;
+    }
+}
+@-moz-keyframes slide-up-three {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 1100px;
+    }
+}
+@-o-keyframes slide-up-three {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 1100px;
+    }
+}
+@keyframes slide-up-three {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 1100px;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-down-three {
+    0% {
+        height: 1100px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-moz-keyframes slide-down-three {
+    0% {
+        height: 1100px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-o-keyframes slide-down-three {
+    0% {
+        height: 1100px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@keyframes slide-down-three {
+    0% {
+        height: 1100px;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+@-webkit-keyframes slide-up-short-three {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+@-moz-keyframes slide-up-short-three {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+@-o-keyframes slide-up-short-three {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+@keyframes slide-up-short-three {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-down-short-three {
+    0% {
+        height: 30px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-moz-keyframes slide-down-short-three {
+    0% {
+        height: 30px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-o-keyframes slide-down-short-three {
+    0% {
+        height: 30px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@keyframes slide-down-short-three {
+    0% {
+        height: 30px;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+.four .toggle-item {
+    display: none;
+}
+
+.four .toggle-item + div + label + .accordion-section {
+    height: 0;
+    overflow:hidden;
+}
+
+.four .toggle-item:checked + div + label + .accordion-section {
+    -webkit-animation: slide-up-four 1.5s ease forwards;
+    /* Safari 4+ */
+    -moz-animation: slide-up-four 1.5s ease forwards;
+    /* Fx 5+ */
+    -o-animation: slide-up-four 1.5s ease forwards;
+    /* Opera 12+ */
+    animation: slide-up-four 1.5s ease forwards;
+    /* IE 10+ */
+}
+
+.four .toggle-item:not(:checked) + div + label + .accordion-section {
+    -webkit-animation: slide-down-four 1.5s ease backwards;
+    /* Safari 4+ */
+    -moz-animation: slide-down-four 1.5s ease backwards;
+    /* Fx 5+ */
+    -o-animation: slide-down-four 1.5s ease backwards;
+    /* Opera 12+ */
+    animation: slide-down-four 1.5s ease backwards;
+    /* IE 10+ */
+}
+
+.four .short.toggle-item:checked + div + label + .accordion-section {
+    -webkit-animation: slide-up-short-four 1.5s ease forwards;
+    /* Safari 4+ */
+    -moz-animation: slide-up-short-four 1.5s ease forwards;
+    /* Fx 5+ */
+    -o-animation: slide-up-short-four 1.5s ease forwards;
+    /* Opera 12+ */
+    animation: slide-up-short-four 1.5s ease forwards;
+    /* IE 10+ */
+}
+
+.four .short.toggle-item:not(:checked) + div + label + .accordion-section {
+    -webkit-animation: slide-down-short-four 1.5s ease backwards;
+    /* Safari 4+ */
+    -moz-animation: slide-down-short-four 1.5s ease backwards;
+    /* Fx 5+ */
+    -o-animation: slide-down-short-four 1.5s ease backwards;
+    /* Opera 12+ */
+    animation: slide-down-short-four 1.5s ease backwards;
+    /* IE 10+ */
+}
+
+.toggle-item:checked + div + label + .accordion-section textarea {
+	display: block
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-up-four {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 582px;
+    }
+}
+@-moz-keyframes slide-up-four {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 582px;
+    }
+}
+@-o-keyframes slide-up-four {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 582px;
+    }
+}
+@keyframes slide-up-four {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 582px;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-down-four {
+    0% {
+        height: 582px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-moz-keyframes slide-down-four {
+    0% {
+        height: 582px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-o-keyframes slide-down-four {
+    0% {
+        height: 582px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@keyframes slide-down-four {
+    0% {
+        height: 582px;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-up-short-four {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+@-moz-keyframes slide-up-short-four {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+@-o-keyframes slide-up-short-four {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+@keyframes slide-up-short-four {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30px;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes slide-down-short-four {
+    0% {
+        height: 30px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-moz-keyframes slide-down-short-four {
+    0% {
+        height: 30px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-o-keyframes slide-down-short-four {
+    0% {
+        height: 30px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@keyframes slide-down-short-four {
+    0% {
+        height: 30px;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+

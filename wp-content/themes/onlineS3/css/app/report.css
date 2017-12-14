@@ -1,0 +1,58 @@
+
+#report .main-section {
+    margin-top: 0 !important;
+}
+
+#report .descr {
+    width: 100%;
+    height: 11rem;
+}
+
+#report .section-content {
+    padding: 10px 9px 0 10px;
+}
+
+#report .ben-filters div span.group-data {
+    width: auto;
+    float: none
+}
+
+.popup-btn {
+    left: 0;
+    height: 4rem;
+    float: left;
+    position: relative;
+}
+
+#report {
+    position: static;
+    clear: both;
+}
+
+#report .ben-filters {
+    max-width: 700px;
+}
+
+#report table tr td {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 1px;
+    font-size: 11px;
+    font-family: tahoma;
+    color: #232323;
+    font-family: verdana !important;
+}
+
+#report .main-section {
+    border: none
+}
+    
+#report .main-section.one .section-content,
+#report .main-section.two .section-content,
+#report .main-section.three .section-content,
+#report .main-section.four .section-content {
+    padding: 0;
+    margin-left: -1rem;
+    margin-top: -12px;
+}

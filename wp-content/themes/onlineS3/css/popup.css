@@ -1,0 +1,82 @@
+
+/* 
+    Popup stylesheet
+*/
+
+.popup {
+    padding: 0px 30px;
+}
+
+.popup:not(.report) table.tbl-dt {
+    max-width: 1000px;
+    max-height: 1000px;
+    overflow: auto;
+}
+
+.popup .tbl-dt tr {
+    max-width: none;
+}
+
+.popup .site-header-main {
+    display: none;
+}
+
+.swal2-modal .swal2-content {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    float: none;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    color: #545454;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+}
+
+.swal2-modal .btn.swal2-styled {
+    border: 0;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 5px 0;
+    padding: 10px 32px;
+}
+
+.popup-txt {
+    text-align: left;
+    color: #504e4e;
+    font-weight: 400;
+    margin-bottom: 0rem;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: block;
+    float: left;
+    position: static;
+}
+
+
+.cancel-btn {
+    background: #f3f3f3;
+    color: #777;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 11px;
+}
+
+.accept-btn {
+    background: #f3f3f3;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    font-size: 11px;
+    color: #f94444;
+    border: 1px solid #f0efef;
+
+}

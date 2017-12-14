@@ -1,0 +1,1025 @@
+
+/* 
+    style rules for main content 
+    of current project
+*/
+
+.user-tbl {
+    margin: 20px 25px !important;
+}
+
+.sidebar {
+    display: none
+}
+
+.content-area {
+    width: 100%
+}
+
+h3 {
+    padding-left: 10px
+}
+
+.run-btn::after {
+    content: '';
+    display: block;
+    width: 13px;
+    height: 13px;
+    position: relative;
+    float: right;
+    background: white;
+    border-radius: 8px;
+    color:#f53a3a;
+    /*! font-size: 14px; */
+    /*! font-weight: bold; */
+    /*! font-weight: bold; */
+    font-size: 14px;
+}
+
+.main-section {
+    margin-top: 42px !important;
+    padding-bottom: 22px;
+}
+
+.content-area {
+    margin: 0;
+}
+
+.quart hr {
+    clear: both;
+    margin: 80px 0 0 0;
+}
+
+.choose-quart {
+    float: left
+}
+
+.sub-section {
+    padding: 35px 25px;
+    border: 1px solid #d1d1d1;
+    display: table;
+    width: 740px;
+    box-sizing: border-box
+}
+
+.sub-section {
+    border-bottom: none
+}
+
+.sub-section .hr-secondary {
+    margin-top: 2rem
+}
+
+.upload-lb {
+    width: 15rem;
+}
+
+.user-input {
+    text-align: left;
+    font-family: "verdana";
+}
+
+.tbl-style {
+    margin: 20px 0 0;
+    float: left;
+    display: inline-block;
+}
+
+.tbl-toolbar {
+    margin: 0px 1rem 10px 2rem;
+    float: right
+}
+
+.export-btn {
+    float: right
+}
+
+.export-btn .button {
+    margin: 0 6px;
+    display: inline-block
+}
+
+.tbl-img {
+    cursor: default;
+}
+
+.btn-style {
+    font-style: italic;
+    font-size: 13px;
+    padding: 0;
+}
+
+.main-section {
+    padding-left: 0;
+    padding-right: 0;
+    width: 850px;
+    border: 1px dotted #bfbfbf;
+}
+
+.bench .choose-section,
+.bench .run,
+.bench .tbl-dimensions,
+.bench .btns,
+.bench .tbl-data {
+    display: none
+}
+
+.bench .auto-tbl,
+.bench .excel-tbl {
+    position: relative;
+}
+
+.user-input {
+    text-align: left
+}
+
+.import-file .upload-lb {
+    width: 17rem;
+    font-family: verdana;
+    font-size: 11px;
+    padding: 5px 7px;
+    letter-spacing: 1px;
+}
+
+.import-file .file-upload {
+    /*visibility: hidden;*/
+    width: 0;
+    height: 0
+}
+
+.import-file .fl-error {
+    position:static;
+    clear:both;
+    float:none
+}
+
+div.guidelines {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    padding-left: 2rem;
+}
+
+div.choose-section [type="checkbox"]:not(:checked) + label.check::before,
+div.choose-section [type="checkbox"]:checked + label.check::before {
+    left: 9rem;
+}
+
+div.choose-section [type="checkbox"]:not(:checked) + label.check::after,
+div.choose-section [type="checkbox"]:checked + label.check::after {
+    left: 9.1rem;
+}
+
+div.guidelines p {
+    margin: 0;
+    padding: 0;
+}
+
+div.guidelines ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 2rem;
+}
+
+div.guidelines ul li {
+    list-style-type: none;
+}
+
+div.choose-section [type="checkbox"] + label.check {
+    padding-right: 50px !important;
+}
+
+div.choose-section [type="checkbox"] + label.check::before,
+div.choose-section [type="checkbox"] + label.check::after {
+    right: 1.4rem;
+    float: right;
+    left: inherit !important;
+}
+
+div.choose-section {
+    width: 100%
+}
+
+.run {
+    float: right;
+}
+
+.a-btn {
+    padding-right: 14px;
+    font-size: 15px !important
+}
+
+.bench .btns {
+    margin-right: 1.4rem;
+    float: right
+}
+
+.step-1 {
+    display: table !important
+}
+
+.user-main {
+    border: 1px solid #ddd;
+    margin: 0;
+    border: none;
+    border-top: 1px dotted #bfbfbf;
+}
+
+.guidelines.show,
+.guidelines-init.show {
+    display:table-cell;
+}
+
+.new-btns {
+    float: right;
+    right: 9px;
+    position: relative;
+}
+
+.bench .guidelines {
+    display: none
+}
+
+.report-link {
+    float: right;
+    font-size: 22px;
+    font-weight: 300 !important;
+    font-family: "Calibri";
+    margin-top: -5rem;
+    margin-right: 2rem;
+    color: #cc3200;
+}
+
+.report {
+    color: #cc3200
+}
+
+.tbl-data {
+    max-width: 680px;
+    max-height: 400px;
+    margin: 0 auto
+}
+
+.main-tbl {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.import-file {
+    padding: 27px 25px;
+}
+
+.tbl-dimensions {
+    padding: 16px 25px 7px 25px
+}
+
+div.choose-section {
+    position: relative;
+    float: left;
+    padding: 24px 25px 4px 5px;
+    border: none;
+    vertical-align: bottom;
+    border-top: 1px dotted #bfbfbf;
+}
+
+.excel-tbl .tbl-data,
+.auto-tbl .tbl-data {
+    margin: 25px;
+    border: 1px solid #ddd
+}
+
+.main-section.des .sub-section,
+.main-section.quart .sub-section,
+.main-section.kernel .sub-section {
+    padding: 20px 25px;
+}
+
+.new-btns {
+    margin-top: 20px;
+}
+
+.bench .radio.choose-quart {
+    padding: 25px 0;
+    position: relative;
+    float: left;
+    margin: 0 1rem
+}
+
+.bench .tbl-annex {
+    position: relative;
+    float: right;
+    padding: 10px;
+    padding-left: 19px;
+    border: 1px dashed #ababab;
+    margin: 2rem 1.4rem 1.4rem;
+    border: 1px dashed #cbcbcb
+}
+
+.bench .tbl-annex div {
+    display: inline-block;
+    color: #fff;
+    width: 9px;
+    height: 9px;
+    margin: 0 17px 0 8px;
+}
+
+.bench .tbl-annex span {
+    font-weight: 400;
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    margin-right: 0;
+    font-family: verdana;
+    padding: 0;
+    font-size: 12px;
+    color: #4e4e4e;
+}
+
+.bench .tbl-annex.style-two div {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 14px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.bench .tbl-annex.style-two {
+    border: none
+}
+
+.bench .tbl-annex div.q1 {
+    background-color: #BFBAD4 !important;
+}
+
+.bench .tbl-annex div.q2 {
+    background-color: #8D89A5 !important;
+}
+
+.bench .tbl-annex div.q3 {
+    background-color: #5E5881 !important;
+}
+
+.bench .tbl-annex div.q4 {
+    background-color: #39325D !important;
+}
+
+.bench .tbl-annex div.q5 {
+    background-color: #993d43 !important;
+}
+
+.ben-filters {
+    text-align: left;
+    margin: 4px 10px;
+    color: #504e4e;
+    font-weight: 400;
+    margin-bottom: 6px;
+    font-family: verdana;
+}
+
+.sep {
+    clear: both;
+    margin: 60px 0 0 0;
+    display: block;
+    height: 1px !important
+}
+
+.sep {
+    border-bottom: 2px solid #c8c8c8
+}
+
+.ben-filters div {
+    display: block;
+    height: 40px;
+    overflow: hidden;
+}
+
+.ben-filters div span.group-label {
+    position: relative;
+    float: left;
+    display: inline;
+    font-weight: bold
+}
+
+.ben-filters div span.group-data {
+    padding: 0;
+    display: inline;
+    width: 715px;
+    margin: 0;
+    position: relative;
+    float: right;
+    font-family: verdana;
+    line-height: 1.6;
+    padding-top: 3px;
+}
+
+.radio.choose-table {
+    margin: 1rem;
+}
+
+.quart-color {
+    padding-top: 10px;
+    clear: both;
+}
+
+#export-tbl {
+    background-color: #fff
+}
+
+.select-var {
+    float: left;
+    margin: 1rem
+}
+
+.main-section.kernel {
+    /*min-height: 24rem*/
+}
+
+.main-section {
+    text-align: center;
+}
+
+.main-section label.toggle-label {
+    color: #565656;
+    padding: 5px 10px;
+    clear: both;
+    text-align: left;
+    font-size: 14px !important;
+    display: inline-block;
+    width: 100% !important;
+    font-weight: 400 !important;
+    background: #efefef;
+    letter-spacing: 1px;
+    border:none;
+    cursor: pointer;
+    padding-left: 41px;
+    /* padding-top: 9px; */
+    /* display: inline; */
+    position: absolute;
+    left: 0;
+    margin-top: -5px;
+    width: 850px !important;
+    margin-left: 2px;
+}
+
+label.toggle-label:after {
+    font-family: "FontAwesome";
+    content: '\f0d7';
+    font-size: 12px;
+    position: relative;
+    right: 10px;
+    top: 2px;
+    float: right;
+    color: #787878;
+}
+
+#report label.toggle-label:after {
+    display: none
+}
+
+.toggle-item:checked + div + label.toggle-label:after {
+    font-family: "FontAwesome";
+    content: '\f0d8';
+    font-size: 12px;
+    position: relative;
+    right: 10px;
+    top: 2px;
+    float: right;
+    color: #898989
+}
+
+.ben-filters {
+    padding: 1rem;
+}
+
+.tbl-dimensions label {
+    width: 100%;
+    padding: 2px 8px;
+    color: #55564e !important;
+    font-weight: 600;
+    margin-right: 0;
+    z-index: 10;
+    font-family: "verdana";
+    font-size: 11px;
+}
+
+.choose-section label {
+    margin-left: 28px;
+}
+
+table .chk-primary [type="checkbox"]:not(:checked) + label::before, 
+table .chk-primary [type="checkbox"]:checked + label::before {
+    right: -7px;
+    top: -11px;
+}
+
+table .chk-primary [type="checkbox"] + label::after {
+    right: -6px;
+    top: -7px;
+}
+
+.col-base div {
+    display: flex;
+    height: 23px;
+}
+
+.col-base {
+    text-align: left !important
+}
+
+.col-base a {
+    float: right;
+    position: relative;
+    right: -52px;
+    top: -2px;
+    display: inline;
+}
+
+.upd-group.fa-times {
+    color: #c2bebe;
+    font-size: 12px;
+}
+
+.upd-group.fa-plus {
+    color:#b6b6b6;
+    font-size: 12px;
+}
+
+.upd-group.fa-times:hover {
+    color: #ea5e5e
+}
+
+.upd-group.fa-plus:hover {
+    color: #89ade3
+}
+
+table tr.ref-row {
+    background: rgb(170, 170, 170);
+    /* background: #c3c3c3; */
+    /* background: #f27474; */
+    background: rgba(126, 195, 65, 0.5) !important;
+    /* background: #e8e8e8 !important; */
+}
+
+table tr.ref-row td {
+    background: rgba(177, 240, 120, 0.5) !important;
+}
+
+table .tooltip-container .tooltiptext {
+    height: 3rem;
+    position: relative;
+    display: inline-block;
+    word-wrap: break-word;
+    width: 20rem;
+    display: initial;
+}
+
+table .tooltip-container .tooltiptext {
+    left: -44px !important;
+    top: -4px;
+    padding: 9px;
+    border-radius: 8px;
+}
+
+table tr.removed {
+    /*background: #fafafa;*/
+}
+
+table tr.removed .col-base input {
+    text-decoration: line-through
+}
+
+.tbl-primary td.small input {
+    font-size: 11px !important;
+}
+
+.select-source {
+    font-size: 13px;
+    /*! font-weight: bold; */
+    color: #474545;
+    font-family: verdana;
+    color: #504e4e;
+    margin-left: 11px;
+}
+
+.check-import {
+    display: inline-block
+}
+
+.set-ref {
+    margin: -4px 0 0 -76px;
+    width: 108px;
+    font-weight: 400;
+    border: 1px solid #e7e7e7;
+    padding: 3px 5px 3px 5px;
+    color: #2f67d8;
+    text-align: center;
+    border-radius: 4px;
+    background: linear-gradient(#fff,#dedede);
+    font-size: 12px;
+    display: none;
+    box-shadow: 2px 2px 2px #b7b1b1;
+    opacity: .9;
+}
+
+#generate-tbl {
+    margin: 1rem;
+}
+
+.tbl-dimensions input[type='text'] {
+    background: white
+}
+
+.csv-icon {
+    margin-left: 5px;
+    top: 3px;
+    position: relative;
+    margin-top: -4px;
+    padding-top: 0;
+    display: none
+}
+
+.export-csv {
+    background: linear-gradient(#ff6b6b,#ff6b6b);
+    padding: 3px 13px;
+    color: white;
+    border: 1px solid #e6eaf0;
+}
+
+.bench-btn .fa,
+.bench-btn-alt .fa {
+    font-size: 14px;
+    left: 7px;
+    position: relative;
+}
+
+.one .bench-btn {
+    background: #53a2fb;
+    color: white;
+    width: 77px !important;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: -4px;
+    text-align: left;
+    padding: 5px 8px 4px 9px;
+    letter-spacing: 1px;
+    border: 1px solid #3984fe;
+    font-weight: bold;
+    font-size: 11px;
+    background: linear-gradient(#7cc1fb,#257dc6);
+}
+
+.two .bench-btn {
+    background: #ff7070;
+    color: white;
+    width: 113px;
+    padding: 4px 8px 4px 4px;
+    letter-spacing: 1px;
+    border: 1px solid #ff5e5e;
+    /*! font-family: "tahoma"; */
+    /* letter-spacing: 1px; */
+    font-weight: bold;
+    font-size: 11px;
+    background: linear-gradient(#fe8a8a,#f54949) !important;
+}
+
+.two .bench-btn-alt {
+    background: linear-gradient(#ff6b6b,#ff6b6b);
+    color: white;
+    width: 145px;
+    padding: 5px 8px;
+    letter-spacing: 1px;
+    border: 1px solid #ff7837;
+}
+
+.three .bench-btn {
+    color: white;
+    background: #a8d77f;
+    width: 113px;
+    padding: 5px 8px 5px 4px;
+    letter-spacing: 1px;
+    border: 1px solid #6bbc22;
+    font-family: "tahoma";
+    font-weight: bold;
+    font-size: 11px;
+    background: linear-gradient(#a4dd70,#86b65c);
+}
+
+.three .bench-btn-alt {
+    color: white;
+    background: #34a7a2;
+    width: 145px;
+    padding: 5px 8px;
+    letter-spacing: 1px;
+    border: 1px solid #319a96;
+    color: white;
+    background: #9c9c9c;
+    width: 153px;
+    padding: 5px 8px 5px 4px;
+    letter-spacing: 1px;
+    border: 1px solid #8b8c8b;
+    font-family: "tahoma";
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 11px;
+    background: linear-gradient(#97db58,#77b341);
+    background: linear-gradient(#97db58,#77b341);
+    background: linear-gradient(#c3c2c2,#939191);
+}
+
+.four .bench-btn {
+    background: #fd8c66;
+    color: white;
+    width: 167px;
+    padding: 5px 8px;
+    letter-spacing: 1px;
+    border: 1px solid #f8ca2d !important;
+    /* background: #ffd133 !important; */
+    color: #fefefe;
+    font-weight: bold;
+    width: 167px;
+    padding: 5px 8px;
+    letter-spacing: 1px;
+    /*! border: 1px solid #ffd545 !important; */
+    background: linear-gradient(#ffeba9,#ffd440);
+    color: #fefefe;
+    font-weight: bold;
+    color: #909090;
+    font-weight: bold;
+    font-size: 11px;
+    background: linear-gradient(#c3c2c2,#939191);
+    color: white;
+    border: 1px solid grey !important;
+}
+
+.four .toggle-label::after {
+    color: #62728f !important;
+}
+
+.fa-refresh {
+    position: relative;
+    float: right;
+    right: -63px;
+    top: 3px;
+    color: white;
+    font-size: 13px;
+}
+
+#run {
+    width: 88px;
+}
+
+.select-var {
+    text-align: left;
+    color: #504e4e;
+    margin-bottom: 2rem;
+    margin: 24px 0 37px 24px;
+    margin: 29px 0 37px 24px
+}
+
+.user-input {
+    /*! margin-top: -25px; */
+}
+
+h2 {
+    color: #f63c3c
+}
+
+.change-message {
+    display: none
+}
+
+.tip-box {
+    border: 1px solid #f3f1f1;
+    padding: 20px 16px 10px 16px;
+    box-shadow: 2px 2px 2px #f3f1f1;
+    position: relative;
+    margin: -19px 12px 39px 0;
+    border-left: 3px solid #fd6666;
+    margin: 34px 12px 39px 0
+}
+
+.tip-box p {
+    font-family:'verdana';
+    font-size: 12px;
+    padding: 0;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #515254;
+}
+
+.tip-box a {
+    text-decoration: underline;
+    color: #346acb;
+    font-weight: normal;
+}
+
+.tip-box .fa {
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 6px;
+    color: grey;
+    font-size: 11px;
+    padding: 8px calc;
+    font-weight: normal;
+    cursor: pointer
+}
+
+#kernel_prop {
+    width: 8rem !important  
+}
+
+.kernel-choose {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.col-base input {
+    width: 13rem
+}
+
+.section-info {
+    font-size: 18px;
+    position: relative;
+    right: 403px;
+    top: 4px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.one .section-info {
+    color: #007ce2
+}
+
+.two .section-info {
+    color: #f36666;
+}
+
+.three .section-info {
+    color: #6bbc22;
+}
+
+.four .section-info {
+    color: #f5d340;
+}
+
+.section-info:hover {
+    opacity: .8
+}
+
+.main-section.two table tr th:first-of-type,
+.main-section.two table tr td:first-of-type,
+.main-section.three table tr th:first-of-type,
+.main-section.three table tr td:first-of-type {
+    width: 11rem;
+    border: 1px solid #ddd;
+    margin-left: -3px;
+    color: #232323;
+    font-family: verdana !important;
+    /* background: repeating-linear-gradient(45deg, #fff, #ffffff 6px, #ececec 1px, #fff 8px), repeating-linear-gradient(135deg, #fff, #ffffff 6px, #efefef 1px, #fff 8px); */
+}
+
+.main-section.two table th,
+.main-section.three table th,
+.main-section.two table th input,
+.main-section.three table th input {
+    color: #504e4e !important;
+    letter-spacing: 1px;
+}
+   
+.ref-reg {
+    /* font-weight: bold; */
+    font-style: italic;
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+.two .ref-reg {
+    color: #ef3c3c;
+}
+
+.three .ref-reg {
+    color: #62a526;
+}
+    
+.col-info {
+    position: relative;
+    left: 7px;
+    color: #615f5f;
+    font-size: 11px;
+    cursor: pointer;
+    left: -64px;
+    top: 2px;
+    background: #808280;
+    background: #6f6f6f;
+}
+  
+.secondary.col-info {
+    left: -51px;
+}
+    
+.section-content.one .radio-primary {
+    font-family: verdana;
+    padding: 0;
+    /*margin-left: 0;*/
+    font-size: 12px;
+    color: #4e4e4e;
+}
+
+.toolbar-primary span {
+    font-family:verdana; 
+    color: #3e7adc;
+    font-size: 12px;
+}
+
+label#fileToUpload {
+    background: white;
+    font-size: 11px;
+    width: 105px !important;
+    padding: 5px 8px 5px 11px;
+    border: 1px solid #5eb0f0;
+    color: #369aec;
+    text-shadow: 2px 2px 2px #c6cdd5;
+}
+
+.chosen-container-single {
+    width: 140px !important
+}
+
+.main-section.one {
+    padding-bottom: 22px;
+}
+
+.section-content.one {
+    margin-top: 10px;
+}
+
+table .chk-primary {
+    margin-left: 12px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+   /* IE10+ CSS */
+   table .tooltip-container {
+       display: none
+   }
+}
+
+@media only screen and (max-width:1750px) {
+    .tooltip-container .tooltiptext {
+        left: -30rem !important;
+        top: 2rem;
+        width: 316px !important;
+        opacity: .8;
+    }
+    
+    .tooltip-container .tooltiptext::after {
+        display: none
+    }
+}
+
+#user-tbl .chk-primary [type="checkbox"] + label::after {
+    color: #606875;
+    color: #4592d8
+}
+
+input[readonly]:focus,
+input[readonly]:hover {
+    /*color: #232323 !important;*/
+    cursor: context-menu !important;
+}
+
+#tbl-error {
+    display: none;
+    color: #ff4646;
+    font-style: italic;
+    font-family: "verdana";
+    font-weight: bold;
+    font-size: 11px;
+    padding: 0 32px;
+    margin: 15px 0 -13px 0;
+}
+
+#kernel_prop_chosen .chosen-drop {
+    border-top: 1px solid #ededed;
+}
+
+#kernel_prop_chosen .chosen-single {
+    height: 29px;
+}
+
+#report .toggle-label {
+    color: #4B5E7D;
+    background: none;
+    font-style: italic;
+    font-size: 12px !important;
+    font-family: verdana;
+    font-weight: bold !important;
+    border-bottom: 1px dashed #848383;
+    display: block;
+    display: flex;
+    margin: 0 18px 11px 10px;
+    position: static;
+    padding: 0;
+}

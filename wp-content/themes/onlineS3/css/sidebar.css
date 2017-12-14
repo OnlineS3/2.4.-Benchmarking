@@ -1,0 +1,157 @@
+
+/* Sidebar stylesheet */
+
+.r-sidebar {
+    position: relative;
+    float: right;
+    width: 250px;
+    margin-top: 5rem;
+    font-family: "verdana";
+    padding: 1rem 1.5rem .5rem 1.7rem;
+    border: 1px solid #d4d2d2;
+    right: 50px;
+    top: 40px;
+}
+
+.r-sidebar ul {
+    padding: 0;
+    margin: 14px 0 0 6px;
+}
+
+.r-sidebar ul li {
+    list-style-type: none;
+    margin-bottom: 2px;
+    width: 10rem;
+    border-radius: 2px;
+    letter-spacing: 2px;
+}
+
+.r-sidebar ul li a {
+    text-decoration: none;
+    color: #555;
+    padding: 5px 0;
+    font-size: 13px !important;
+    display: block;
+}
+
+.r-sidebar ul li button {
+    text-decoration: none;
+    font-size: 14px !important;
+    color: #515050;
+    font-family: open sans;
+    padding: 9px 0;
+    letter-spacing: 2px;
+}
+
+.r-sidebar ul li .fa {
+    font-size: 17px;
+    display: inline-block;
+    width: 24px;
+    float: left;
+    top: 9px;
+    position: relative;
+    border-radius: 2px;
+    margin-right: 17px;
+    left: 7px;
+    color: #515050;
+}
+
+.cat-caption {
+    display: block;
+    margin: 10px 0 5px 0;
+    border-bottom: 1px dotted #e4e9f0;
+}
+
+.cat-caption p {
+    color: #494f59;
+    margin: 0 0 -2px 0;
+    padding: 0 0 0px 0;
+    display: inline-block;
+    font-size: 15px;
+    border-bottom: 2px solid #e74c3c;
+    letter-spacing: 2px;
+}
+
+.r-sidebar img#export-img {
+    background-color: #515050
+}
+
+.r-sidebar img {
+    margin: 3px 11px -3px 5px;
+    color: #515050;
+}
+
+.not-ready {
+    font-family: open sans;
+    font-size: 14px;
+    padding: 0px;
+    color: #444;
+}
+
+#sidebar button.alt {
+    border: solid 1px red;
+    padding: 5px 8px;
+    background: linear-gradient(#ff6b6b,#ec2929);
+}
+
+#sidebar button {
+    color: #fff;
+    background: linear-gradient(#2197f9,#007ce2);
+    line-height: 1.4;
+    font-size: 12px;
+    vertical-align: middle;
+    border-radius: 3px;
+    border: solid 1px #007ce2;
+    padding: 5px 18px 5px 10px;
+    letter-spacing: 0;
+    cursor: pointer;
+    margin: 10px 14px 0 0;
+    width: 12rem;
+    font-weight: 600;
+}
+
+#sidebar button img {
+    position: relative;
+    top: 3px;
+    left: 8px;
+}
+
+#sidebar button .fa {
+    position: relative;
+    font-size: 14px;
+    left: 8px;
+}
+
+#sidebar button.alt {
+    border-color: #909090;
+    color: #fff;
+    padding: 5px 18px 5px 10px;
+    font-size: 13px;
+    font-family: tahoma;
+    background: linear-gradient(#c3c2c2,#939191);
+}
+
+#sidebar button.guide {
+    border: solid 1px red;
+    padding: 5px 8px;
+    background: linear-gradient(#ff6b6b,#ec2929);
+}
+
+#sidebar {
+    position: relative;
+    float: right;
+    width: 260px;
+    padding: 1rem 1.5rem;
+    margin-top: 6rem;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#sidebar button.case_study {
+    background: linear-gradient(#97db58,#77b341);
+    border-color: #6bbc22;
+}
+
+#sidebar button:hover {
+    opacity: .8
+}
